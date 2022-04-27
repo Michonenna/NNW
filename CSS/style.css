@@ -307,7 +307,7 @@ input[type=submit]{
   }
   #showcase:before{
     content: '';
-    background: url('../Images/bushmeat.jpg') no-repeat center center/cover;
+    background: url('https://438079-1371756-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2021/12/gamee-meat-1-1536x1024.jpg') no-repeat center center/cover;
     position: absolute;
     top: 0;
     left: 0;
