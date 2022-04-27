@@ -1,107 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  
-  <link rel="stylesheet" href="./CSS/style.css">
-  <link rel="stylesheet" media = 'screen and (max-width: 768px)' href="./CSS/mobile.css">
-  <link href="https://fonts.googleapis.com/css?family=Lato|Staatliches&display=swap" rel="stylesheet">
-  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-  <script src="https://kit.fontawesome.com/85a5fdd30e.js" async></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nenna's News&Weather</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 768px)"
+      href="./CSS/mobile.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato|Staatliches&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <script src="https://kit.fontawesome.com/85a5fdd30e.js" async></script>
+    <script defer src="scripts/navbar.js"></script>
+    <script defer src="scripts/footer.js"></script>
+  </head>
+  <body>
+    <nav id="app-navbar"></nav>
 
-  <title>NewsGrid | Article</title>
-</head>
-<body>
-  <nav id="main-nav">
-    <div class="container">
-      <img src="img/logo.png" alt="NewsMedia" class="logo">
-      <div class = 'social'>
-        <a href="http://facebook.com.br" target = 'blank'><i class="fab fa-facebook fa-2x"></i></a>
-        <a href="http://twitter.com.br" target = 'blank'><i class="fab fa-twitter fa-2x"></i></a>
-        <a href="http://instagram.com.br" target = 'blank'><i class="fab fa-instagram fa-2x"></i></a>
-        <a href="http://youtube.com.br" target = 'blank'><i class="fab fa-youtube fa-2x"></i></a>
+    <section id="article">
+      <div class="container">
+        <div class="page-container">
+          <article class="card">
+            <img
+              src="https://438079-1371756-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2021/12/gamee-meat-1-1536x1024.jpg"
+              alt="article"
+            />
+            <h1 class="l-heading">
+              Cooking Will Not Kill Bacteria In Bushmeat
+            </h1>
+            <div class="meta">
+              <small>
+                <i class="fas fa-user"></i>Written by João José. September 13,
+                2019
+              </small>
+              <div class="category category-ent">Health</div>
+            </div>
+            <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi ab dicta esse sequi explicabo dolores, qui nulla nisi commodi nobis enim voluptatem, voluptas numquam eaque veniam rem temporibus, illo alias aliquid assumenda ratione sed blanditiis similique vero? Dicta, consectetur natus? Repudiandae porro cupiditate labore minus praesentium rerum est voluptate facere!</p> -->
+
+            <p>
+              Many of us believe we can kill the bacteria in our food,
+              especially meat, by simply cooking. But University of Zambia
+              Professor of Veterinary Public Health and Wildlife Medicine, Dr.
+              Musso Munyeme, has revealed that there are a number of survivalist
+              bacterial pathogens that are very resistant even to extreme
+              temperatures.
+            </p>
+
+            <p>
+              Dr. Munyeme disclosed this during a Facebook Live Chat on the Link
+              Between Zoonotic Diseases and Illegal Bushmeat hosted by Wildlife
+              Crime Prevention. He explained that these survivalist bacterial
+              species usually form spores which are able to survive freezing or
+              boiling temperatures, waiting for the right conditions to bloom
+              into deadly bacteria.
+            </p>
+
+            <p>
+              One such spore-forming bacterium that Dr. Munyeme highlighted is
+              anthrax. He said, “The bacterium that causes anthrax forms spores
+              when exposed to air and these spores are extremely resistant to
+              environmental conditions and have been shown to survive in the
+              soil for over 60 years.” For example, it was discovered that an
+              outbreak of anthrax in Siberia, Russia in 2016, which sickened at
+              least 13 people and killed over 2,000 reindeer (a species of
+              deer), resulted when a reindeer that died of anthrax 75 years
+              earlier was unburied by melting ice.
+            </p>
+
+            <p>
+              During the chat, Dr. Munyeme further disclosed that the anthrax
+              bacterium not only survives in hot temperatures but that it
+              actually needs them for it to become active. “When we want to
+              culture it [anthrax bacterium] in the lab, we first have to boil
+              it in order to excite it to grow and become active”, he added.
+            </p>
+
+            <p>
+              The implication of this revelation is that our long held view that
+              we can kill all bacteria by simply cooking our food may not be
+              entirely correct. “With certain bacteria you could actually do
+              more harm than good by boiling them because when you heat or boil
+              certain bacteria, you make them more virulent.” This means when
+              the bacterium is ingested by humans, it multiplies rapidly, with
+              extremely severe or harmful effects because heating made the
+              bacterium more active.
+            </p>
+
+            <p>
+              This also puts into question another long held view, common
+              especially among consumers of bushmeat, that dried bushmeat is
+              safer because pathogens are killed during the process of drying.
+              In reality, the revelation made by Dr. Munyeme on anthrax clearly
+              shows that if bacteria can withstand boiling, they definitely
+              cannot be harmed by sun-drying, the process used to dry illegal
+              bushmeat.
+            </p>
+
+            <p>
+              Humans and animals can ingest anthrax from carcasses of dead
+              animals that have been contaminated with anthrax. Ingestion of
+              anthrax can cause serious, sometimes fatal disease. He also
+              revealed that 96 percent of all zoonotic diseases are believed to
+              be foodborne, meaning they result from people consuming
+              contaminated and infected animal meat.
+            </p>
+
+            <p>
+              One of the ways that many Zambians are exposed to contaminated
+              wildlife meat is through the illegal bushmeat trade. In Zambia,
+              anthrax has been shown to be common in hippos, which are often
+              exposed to anthrax spores as they search for food by rooting in
+              the soil. When you consider the fact that hippo meat accounts for
+              much of the illegal bushmeat being traded, the threat of a serious
+              disease outbreak becomes real.
+            </p>
+
+            <p>
+              Dr. Munyeme also touched on the dangerous role the illegal
+              bushmeat trade plays in causing zoonotic disease outbreak. “A lot
+              of the bushmeat people eat is actually illegal. The danger is when
+              you consume something illegal you are not going trace its source,
+              how it was prepared or how it was obtained, it might have been
+              harvested from animals which died on their own, or from animals
+              that were semi-decomposed in snares.”
+            </p>
+
+            <p>
+              Poachers are always fearful of being spotted by someone or being
+              caught by wildlife police officers. So, when they set snares in
+              national parks and other protected areas, they often leave them
+              unattended for days. As a result, a trapped animal can remain in
+              the snare for days before its harvested and by that time, it would
+              have already started decomposing.
+            </p>
+
+            <p>
+              To give an idea of what I’m talking about, I have attached a
+              picture showing a dead impala in a snare. The impala is also
+              pregnant so by the time poachers come to harvest it, the animal
+              and its calf would have already started decomposing. And since
+              poachers have a nothing goes to waste policy, this rotting and
+              likely bacterium-infested meat will still be sold to unsuspecting
+              people. This obviously increases the risk of zoonotic diseases
+              being transmitted to poachers themselves and to consumers of
+              illegal bushmeat.
+            </p>
+
+            <p>
+              Another issue that Dr. Munyeme raised during the Facebook live
+              chat is the potential for the illegal bushmeat trade has the
+              potential to diseases disease from areas where they are known to
+              occur to wherever illegal bushmeat is consumed. For instance,
+              while anthrax is a local disease that is known to occur in places
+              with high populations of hippos like the Luangwa valley, when
+              infected hippo meat is transported big cities like Lusaka and
+              Ndola, the disease can be transmitted to those populated areas,
+              where it may cause greater harm. During the 20011 anthrax outbreak
+              that sickened over 500 people and caused more than 5 deaths,
+              people travelled from far places like Copperbelt to harvest
+              anthrax infected hippo carcasses in Chama. As a result, the
+              outbreak was reported even in areas that are quiet far from Chama.
+            </p>
+
+            <p>
+              In a nutshell, the illegal bushmeat trade is closely linked to
+              outbreaks of zoonotic diseases. The illegal bushmeat that poachers
+              sell often contains bacteria that are so resistant that even
+              boiling will not kill some of them.
+            </p>
+
+            <p>
+              Watch the full chat with Dr. Musso Munyeme here:
+              https://fb.watch/7NADAK457e/<br />
+              For more info on the illegal bushmeat trade visit:
+              http://www.thisisnotagame.info/)
+            </p>
+          </article>
+        </div>
       </div>
-      <ul>
-        <li><a href="index.html" >Home</a></li>
-        <li><a href="about.html" >About</a></li>
-      </ul>
-    </div>
-  </nav>
+    </section>
 
-  <section id="article">
-    <div class="container">
-      <div class="page-container">
-        <article class="card">
-          <img src="https://438079-1371756-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2021/12/gamee-meat-1-1536x1024.jpg" alt="article">
-          <h1 class='l-heading'>Cooking Will Not Kill Bacteria In Bushmeat</h1>
-          <div class="meta">
-            <small>
-              <i class="fas fa-user"></i>Written by João José. September 13, 2019
-            </small>
-            <div class="category category-ent">Health</div>
-          </div>
-          <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi ab dicta esse sequi explicabo dolores, qui nulla nisi commodi nobis enim voluptatem, voluptas numquam eaque veniam rem temporibus, illo alias aliquid assumenda ratione sed blanditiis similique vero? Dicta, consectetur natus? Repudiandae porro cupiditate labore minus praesentium rerum est voluptate facere!</p> -->
-            
-<p>Many of us believe we can kill the bacteria in our food, especially meat, by simply cooking. But University of Zambia Professor of Veterinary Public Health and Wildlife Medicine, Dr. Musso Munyeme, has revealed that there are a number of survivalist bacterial pathogens that are very resistant even to extreme temperatures.</p>
-
-<p>Dr. Munyeme disclosed this during a Facebook Live Chat on the Link Between Zoonotic Diseases and Illegal Bushmeat hosted by Wildlife Crime Prevention. He explained that these survivalist bacterial species usually form spores which are able to survive freezing or boiling temperatures, waiting for the right conditions to bloom into deadly bacteria.</p>
-
-<p>One such spore-forming bacterium that Dr. Munyeme highlighted is anthrax. He said, “The bacterium that causes anthrax forms spores when exposed to air and these spores are extremely resistant to environmental conditions and have been shown to survive in the soil for over 60 years.” For example, it was discovered that an outbreak of anthrax in Siberia, Russia in 2016, which sickened at least 13 people and killed over 2,000 reindeer (a species of deer), resulted when a reindeer that died of anthrax 75 years earlier was unburied by melting ice.</p>
-
-<p>During the chat, Dr. Munyeme further disclosed that the anthrax bacterium not only survives in hot temperatures but that it actually needs them for it to become active. “When we want to culture it [anthrax bacterium] in the lab, we first have to boil it in order to excite it to grow and become active”, he added.</p>
-
-<p>The implication of this revelation is that our long held view that we can kill all bacteria by simply cooking our food may not be entirely correct. “With certain bacteria you could actually do more harm than good by boiling them because when you heat or boil certain bacteria, you make them more virulent.” This means when the bacterium is ingested by humans, it multiplies rapidly, with extremely severe or harmful effects because heating made the bacterium more active.</p>
-
-<p>This also puts into question another long held view, common especially among consumers of bushmeat, that dried bushmeat is safer because pathogens are killed during the process of drying. In reality, the revelation made by Dr. Munyeme on anthrax clearly shows that if bacteria can withstand boiling, they definitely cannot be harmed by sun-drying, the process used to dry illegal bushmeat.</p>
-
-<p>Humans and animals can ingest anthrax from carcasses of dead animals that have been contaminated with anthrax. Ingestion of anthrax can cause serious, sometimes fatal disease. He also revealed that 96 percent of all zoonotic diseases are believed to be foodborne, meaning they result from people consuming contaminated and infected animal meat.</p>
-
-<p>One of the ways that many Zambians are exposed to contaminated wildlife meat is through the illegal bushmeat trade. In Zambia, anthrax has been shown to be common in hippos, which are often exposed to anthrax spores as they search for food by rooting in the soil. When you consider the fact that hippo meat accounts for much of the illegal bushmeat being traded, the threat of a serious disease outbreak becomes real.</p>
-
-<p>Dr. Munyeme also touched on the dangerous role the illegal bushmeat trade plays in causing zoonotic disease outbreak. “A lot of the bushmeat people eat is actually illegal. The danger is when you consume something illegal you are not going trace its source, how it was prepared or how it was obtained, it might have been harvested from animals which died on their own, or from animals that were semi-decomposed in snares.”</p>
-
-<p>Poachers are always fearful of being spotted by someone or being caught by wildlife police officers. So, when they set snares in national parks and other protected areas, they often leave them unattended for days. As a result, a trapped animal can remain in the snare for days before its harvested and by that time, it would have already started decomposing.</p>
-
-<p>To give an idea of what I’m talking about, I have attached a picture showing a dead impala in a snare. The impala is also pregnant so by the time poachers come to harvest it, the animal and its calf would have already started decomposing. And since poachers have a nothing goes to waste policy, this rotting and likely bacterium-infested meat will still be sold to unsuspecting people. This obviously increases the risk of zoonotic diseases being transmitted to poachers themselves and to consumers of illegal bushmeat.</p>
-
-<p>Another issue that Dr. Munyeme raised during the Facebook live chat is the potential for the illegal bushmeat trade has the potential to diseases disease from areas where they are known to occur to wherever illegal bushmeat is consumed. For instance, while anthrax is a local disease that is known to occur in places with high populations of hippos like the Luangwa valley, when infected hippo meat is transported big cities like Lusaka and Ndola, the disease can be transmitted to those populated areas, where it may cause greater harm. During the 20011 anthrax outbreak that sickened over 500 people and caused more than 5 deaths, people travelled from far places like Copperbelt to harvest anthrax infected hippo carcasses in Chama. As a result, the outbreak was reported even in areas that are quiet far from Chama.</p>
-
-<p>In a nutshell, the illegal bushmeat trade is closely linked to outbreaks of zoonotic diseases. The illegal bushmeat that poachers sell often contains bacteria that are so resistant that even boiling will not kill some of them.</p>
-
-<p>
-  Watch the full chat with Dr. Musso Munyeme here:
-  https://fb.watch/7NADAK457e/<br>
-  For more info on the illegal bushmeat trade visit:
-  http://www.thisisnotagame.info/)
-</p>
-        </article>
-        <aside class="card bg-secondary">
-          <h2>Join Our Club</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, nulla!</p>
-          <a href="#" class='btn btn-dak btn-block'>Join Now</a>
-        </aside>
-        <aside id="categories" class="card">
-          <h2>Categories</h2>
-          <ul class="list">
-            <li><a href="#"><i class="fas fa-chevron-right"></i>Sports</a></li>
-            <li><a href="#"><i class="fas fa-chevron-right"></i>Entertainment</a></li>
-            <li><a href="#"><i class="fas fa-chevron-right"></i>Technology</a></li>
-            <li><a href="#"><i class="fas fa-chevron-right"></i>Fashion</a></li>
-          </ul>
-        </aside>
-      </div>
-    </div>
-  </section>
-  
-  <footer id = 'main-footer' class = 'py-2'>
-    <div class="container footer-container">
-      <p>
-        Copyright Nenna's News & Weather &copy; 2022, All Rights reserved. 
-      </p>
-      </div>
-    </div>
-  </footer>
-</body>
+    <footer id="appFooter"></footer>
+  </body>
 </html>

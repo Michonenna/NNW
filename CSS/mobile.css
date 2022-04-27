@@ -1,19 +1,4 @@
-/* Navigation bar */
-#main-nav .social{
-    display: none;
-  }
-  #main-nav .container{
-    grid-template-columns: 1fr;
-    grid-gap: 1.2rem;
-  }
-  #main-nav ul,
-  #main-nav .logo{
-    justify-self: center;
-  }
-  #main-nav ul li a{
-    padding: 0.5rem;
-  }
-  
+
   /* Articles */
   #home-articles .articles-container{
     grid-template-columns: repeat(2, 1fr);
@@ -33,6 +18,15 @@
     #home-articles .articles-container,
     #main-footer .footer-container{
       grid-template-columns: 1fr;
+    }
+    /* Searchbox */
+    /* .inputValue{
+      padding-left: 10px;
+      padding-right: 10px;
+    } */
+    /* The get weather button */
+    .button{
+      margin-top: 10px;
     }
     /* Footer */
     #main-footer .footer-container > *:last-child{

@@ -4,35 +4,25 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Weather</title>
+    <title>Nenna's News&Weather</title>
     <link rel="stylesheet" href="CSS/style.css" />
-
-    <style>
-      body {
-        background-image: url("Images/galaxy-bg.jpg");
-        background-repeat: no-repeat;
-        background-attachment: local;
-        background-size: 100% 100%;
-      }
-    </style>
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 768px)"
+      href="./CSS/mobile.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato|Staatliches&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <script src="https://kit.fontawesome.com/85a5fdd30e.js" async></script>
+    <script defer src="scripts/navbar.js"></script>
+    <script defer src="scripts/footer.js"></script>
   </head>
 
   <body class="w-bg">
-    <nav class="navbar">
-      <div class="brand">
-        <div class="logo">NNW</div>
-        <div class="brand-title">Nenna's News & Weather</div>
-      </div>
-
-      <div class="nav-links">
-        <ul>
-          <li><a href="Index.html">Home</a></li>
-          <li><a href="Weather.html">Weather</a></li>
-          <!-- <li><a href="News.html">News Categories</a></li>
-          <li><a href="Contacts.html">Contacts</a></li> -->
-        </ul>
-      </div>
-    </nav>
+    <nav id="app-navbar"></nav>
     <div class="input">
       <input
         type="text"
@@ -41,24 +31,13 @@
       />
       <input type="submit" value="Get Weather" class="button" />
     </div>
-    <!-- <a
-      class="weatherwidget-io"
-      href="https://forecast7.com/en/n15d3928d32/lusaka/"
-      data-label_1="LUSAKA"
-      data-label_2="WEATHER"
-      data-theme="original"
-      >LUSAKA WEATHER</a
-    > -->
-
+ 
     <div class="weather-details">
       <span class="cityAndCountry"><div class="cityName" id="nameTag"></div> <div class="countryCode"></div> </span>
       <div class="temp"> </div>
       <div class="desc"></div>
     </div>
 
-    <!-- <div class="imagesrc">
-    <p style="background-image: url('Images/galaxy-bg.jpg');">
-</div> -->
     <script src="./scripts/weather.js"></script>
   </body>
 </html>
